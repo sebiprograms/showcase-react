@@ -4,7 +4,7 @@ import Button from "./components/Button";
 function App() {
   return (
     <div>
-      <Button>My Button</Button>
+      <Button onClick={() => console.log("Click")}>My Button</Button>
     </div>
   );
 }
